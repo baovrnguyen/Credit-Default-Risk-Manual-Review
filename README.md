@@ -83,6 +83,6 @@ This group shows weaker repayment-delay and credit-utilization signals, causing 
 
 ## Limitations
 
-The dataset represents a historical population of credit-card customers from Taiwan, so the results may not directly generalize to a current U.S. bank.
+The dataset represents a historical population of credit-card customers from Taiwan, so the results may not directly generalize to a current U.S. bank and its customer population.
 
-Future work could evaluate the models using more recent U.S. banking data and richer customer information such as income, assets under management, debt-to-income ratios, deposit balances, and transaction behavior.
+Future work could evaluate the models using more recent U.S. banking data and richer customer information such as assets under management and transaction patterns.
