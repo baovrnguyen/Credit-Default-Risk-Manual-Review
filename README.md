@@ -40,8 +40,6 @@ Random Forest        11.7% recall   155 defaulters identified
 The recommended logistic regression model has **11.8% recall**, identifying **157 of 1,327 defaulters** within the 200-account review capacity.
 
 Google Colab
-
-The notebook can also be opened in Google Colab and run from top to bottom. The notebook contains the complete modeling workflow, including preprocessing, cross-validation, model comparison, K-means experiments, final test evaluation, and failure analysis.
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/baovrnguyen/Credit-Default-Risk-Manual-Review/blob/main/Credit_Default_Risk_Manual_Review.ipynb)
 
 ## Dataset
