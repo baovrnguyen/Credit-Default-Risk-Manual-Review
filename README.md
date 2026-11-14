@@ -2,7 +2,7 @@
 
 This project uses machine-learning models to help a bank decide and rank which 1,000 of 30,000 customer accounts should be prioritized for manual review before the next payment cycle. Rather than simply predicting default, the goal is to rank accounts by default risk under the bank’s fixed 3.33\% review capacity.
 
-## Headline Result
+## Headline Number
 
 Models are evaluated on a held-out test set of 6,000 customers with a review capacity of 200 accounts.
 
@@ -16,7 +16,7 @@ Models are evaluated on a held-out test set of 6,000 customers with a review cap
 
 Logistic regression achieves the highest held-out test recall while remaining simpler and more interpretable than the random forest.
 
-## Headline Number
+## Reproduce the Headline Number
 
 All code is contained in `Credit_Default_Risk_Manual_Review.ipynb`. The notebook automatically fetches the UCI Default of Credit Card Clients dataset using `ucimlrepo` and uses the fixed random seed:
 
