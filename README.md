@@ -18,28 +18,16 @@ Logistic regression achieves the highest held-out test recall while remaining si
 
 ## Reproduce the Headline Result
 
-The entire code is contained in:
-
-```text
-Credit_Default_Risk_Manual_Review.ipynb
-```
-
-The project uses the fixed random seed:
+All code is contained in `Credit_Default_Risk_Manual_Review.ipynb`. The notebook automatically fetches the UCI Default of Credit Card Clients dataset using `ucimlrepo` and uses the fixed random seed:
 
 ```text
 SEED = 5622
 ```
 
-The dataset is fetched by:
-
-```text
-fetch_data.py
-```
-
-From the repository root, run this exact command:
+From the repository root, run:
 
 ```bash
-python fetch_data.py && python -m jupyter nbconvert --to notebook --execute Credit_Default_Risk_Manual_Review.ipynb --output executed_notebook.ipynb
+python -m jupyter nbconvert --to notebook --execute Credit_Default_Risk_Manual_Review.ipynb --output executed_notebook.ipynb
 ```
 
 The expected final held-out result is:
@@ -49,6 +37,7 @@ Baseline             10.4% recall   138 defaulters identified
 Logistic Regression  11.8% recall   157 defaulters identified
 Random Forest        11.7% recall   155 defaulters identified
 ```
+The recommended logistic regression model has **11.8% recall**, identifying **157 of 1,327 defaulters** within the 200-account review capacity.
 
 The notebook can also be opened in Google Colab:
 
@@ -59,8 +48,6 @@ The notebook can also be opened in Google Colab:
 This project uses the **UCI Default of Credit Card Clients** dataset with 30,000 customer accounts.
 
 The dataset contains information on credit limits, repayment history, bill balances, previous payments, customer characteristics, and next-month default.
-
-`fetch_data.py` downloads the dataset required by the notebook so the project does not depend on files stored in a personal Google Drive.
 
 The data is split using a stratified 80/20 train-test split:
 
