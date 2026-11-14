@@ -69,7 +69,7 @@ K-means features are added to both logistic regression and random forest to test
 
 The final logistic regression model is evaluated across age groups and credit-limit quartiles.
 
-The weakest segment is the highest credit-limit quartile in Q4:
+The worst exploratory slice is the highest credit-limit quartile in Q4:
 
 ```text
 Customers:              1,437
