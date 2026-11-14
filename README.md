@@ -16,7 +16,7 @@ Models are evaluated on a held-out test set of 6,000 customers with a review cap
 
 Logistic regression achieves the highest held-out test recall while remaining simpler and more interpretable than the random forest.
 
-## Reproduce the Headline Result
+## Headline Number
 
 All code is contained in `Credit_Default_Risk_Manual_Review.ipynb`. The notebook automatically fetches the UCI Default of Credit Card Clients dataset using `ucimlrepo` and uses the fixed random seed:
 
