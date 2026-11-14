@@ -1,6 +1,6 @@
 # Prioritizing Customer Accounts for Manual Review Using Credit Default Risk
 
-This project uses machine learning to rank credit-card accounts for manual review under a fixed review budget. Rather than simply predicting default, the goal is to identify which accounts should be prioritized when only **3.33% of customers can be reviewed**.
+This project uses machine-learning models to help a bank decide and rank which 1,000 of 30,000 customer accounts should be prioritized for manual review before the next payment cycle. Rather than simply predicting default, the goal is to rank accounts by default risk under the bank’s fixed 3.33\% review capacity.
 
 ## Headline Result
 
